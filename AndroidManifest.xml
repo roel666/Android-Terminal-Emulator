@@ -42,7 +42,8 @@
         </activity>
         <activity-alias android:name="TermInternal"
                 android:targetActivity="Term"
-                android:exported="false">
+                android:exported="true" />
+                false">
             <intent-filter>
                 <action android:name="jackpal.androidterm.private.OPEN_NEW_WINDOW" />
                 <category android:name="android.intent.category.DEFAULT" />
